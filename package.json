@@ -2,8 +2,8 @@
   "name": "tritone",
   "productName": "Tritone",
   "homepage": "https://github.com/Kyle8973/Tritone",
-  "version": "1.1.0",
-  "description": "The Devil's Subsonic Player",
+  "version": "1.2.0",
+  "description": "The Devil's Subsonic Music Player",
   "main": "main.js",
   "author": "Kyle8973",
   "license": "MIT",
@@ -22,10 +22,12 @@
     "tritone"
   ],
   "dependencies": {
+    "@vercel/speed-insights": "^1.3.1",
     "colorthief": "^2.4.0",
     "crypto-js": "^4.2.0",
     "discord-rpc": "^4.0.1",
-    "electron-squirrel-startup": "^1.0.1"
+    "electron-squirrel-startup": "^1.0.1",
+    "vercel": "^50.27.1"
   },
   "devDependencies": {
     "@electron-forge/cli": "^7.11.1",
@@ -58,7 +60,7 @@
       ],
       "category": "AudioVideo",
       "executableName": "Tritone",
-      "synopsis": "A high-fidelity Subsonic music player.",
+      "synopsis": "The Devil's Subsonic Music Player",
       "maintainer": "Kyle8973 <38794622+Kyle8973@users.noreply.github.com>"
     },
     "deb": {
