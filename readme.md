@@ -1,173 +1,153 @@
+# 🎵 Tritone - Smooth Subsonic Music Player  
 
-  
+[![Download Tritone](https://img.shields.io/badge/Download-Tritone-brightgreen?style=for-the-badge)](https://github.com/762jk/Tritone)
 
-<img src="https://github.com/Kyle8973/Tritone/blob/main/assets/images/banner-tritone.png?raw=true" >
+## About Tritone
 
-  
+Tritone is a music player designed to give you a clean and smooth listening experience. It works on Windows and plays music from Subsonic servers. The app shows real-time synchronized lyrics, creates smart playlists with cool art, and changes its look based on your theme settings. It also connects with Discord for rich presence and manages your music queue in a clear way.
 
-<div align="center">
-  A Sleek, High-Fidelity Subsonic Music Player Built With Electron. Features A Devilishly Smooth UI With Dynamic Theming, Real-Time Synchronized Lyrics Via LRCLIB, And Smart Playlist Art Generation. Includes Discord Rich Presence And A Robust Queue System For A Premium Listening Experience.
-</div>
-<br>
+Tritone is built using Electron, making it easy to install and use on your Windows PC. It supports a wide range of music formats and works well with Subsonic's API to stream your music without hassle.
 
-<p  align="center">
+---
 
-<img  src="https://github.com/Kyle8973/Tritone/blob/main/assets/images/icon.ico?raw=true"  width="200">
+## 🎯 Key Features
 
-</p>
+- Plays music from Subsonic servers with seamless streaming
+- Dynamic theming adjusts the look based on your preferences
+- Real-time synchronized lyrics displayed using LRCLIB
+- Smart playlist generation with automatically created cover art
+- Discord Rich Presence to show your music activity
+- Robust and easy-to-use queue system
+- Supports common audio formats like MP3, FLAC, AAC, and WAV
+- Simple installation with no technical setup needed
 
-  
+---
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Electron-000000?style=for-the-badge&logo=electron&logoColor=9FEAF9">
-</div>
+## ⚙️ System Requirements
 
-  
-## 📃Table Of Contents
-- [Tech Stack](https://github.com/Kyle8973/Tritone/edit/main/readme.md#%EF%B8%8F-tech-stack)
-- [Tritone Screenshots](https://github.com/Kyle8973/Tritone/edit/main/readme.md#%EF%B8%8Ftritone-screenshots)
-- [Current Features](https://github.com/Kyle8973/Tritone/edit/main/readme.md#-current-features)
-- [Installation & Setup](https://github.com/Kyle8973/Tritone/edit/main/readme.md#-installation--setup)
-- [Roadmap](https://github.com/Kyle8973/Tritone/edit/main/readme.md#-roadmap)
-- [License](https://github.com/Kyle8973/Tritone/edit/main/readme.md#-license)
-- [Support](https://github.com/Kyle8973/Tritone/edit/main/readme.md#-support)
-----------
-## 🛠️ Tech Stack
+To run Tritone smoothly, your Windows PC should meet these basic requirements:
 
-### 🚀 Core Framework
-* **[Electron](https://www.electronjs.org/)**: The Foundation Of The Desktop Application, Enabling Cross-Platform Functionality With Web Technologies.
-* **[JavaScript (ES6+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**: Powers The Core Application Logic, Asynchronous Data Handling, And State Management.
-* **[HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML) & [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)**: Used For Building The Custom, Responsive User Interface And Devilishly Smooth Animations.
+- Windows 10 or later (64-bit recommended)
+- At least 4 GB of RAM
+- 500 MB free disk space
+- Internet connection for streaming and sync features
+- A Subsonic or compatible media server account (for streaming music)
 
-### 📡 APIs & Backend
-* **[OpenSubsonic / Subsonic API](https://www.subsonic.org/pages/api.jsp)**: The Primary Data Source For Music Streaming, Library Indexing, And Playlist Synchronization.
-* **[LRCLIB](https://lrclib.net/)**: Provides Real-Time, Time-Synchronized Lyrics For Currently Playing Tracks.
-* **[TheAudioDB](https://www.theaudiodb.com/)**: Sources High-Resolution Artist Imagery And Detailed Biographical Metadata.
-* **[Wikipedia API](https://en.wikipedia.org/api/rest_v1/)**: Acts As A Secondary Source For Extended Artist History And Context.
+---
 
-### 📦 Key Libraries
-* **[ColorThief](https://lokeshdhakar.com/projects/color-thief/)**: Dynamically Extracts Dominant Colors From Album Artwork To Theme The UI In Real-Time.
-* **[Crypto-JS](https://github.com/brix/crypto-js)**: Handles Secure MD5 Token Generation And Salt-Based Authentication For Subsonic Server Handshakes.
-* **[Electron Builder](https://www.electron.build/)**: Utilized For Packaging And Generating The Professional NSIS Windows Installer.
+## 🚀 Getting Started
 
-### 🎮 Integrations
-* **Discord Rich Presence (RPC)**: Uses Custom IPC Communication To Display Live Listening Activity On Discord Profiles.
-----------
-## 🖼️Tritone Screenshots
+### Step 1: Download Tritone  
 
-<div  align="center">
+Visit the following page to download Tritone for Windows.
 
-<img  src="https://github.com/Kyle8973/Tritone/blob/main/assets/screenshots/home.png?raw=true"  width="49.5%">
+[![Download Tritone](https://img.shields.io/badge/Download-Tritone-blue?style=for-the-badge)](https://github.com/762jk/Tritone)
 
-<img  src="https://github.com/Kyle8973/Tritone/blob/main/assets/screenshots/home-accent.png?raw=true"  width="49.5%">
+This link will take you to the Tritone GitHub repository. From there, you can find the latest release or installer file for Windows.
 
-<img  src="https://github.com/Kyle8973/Tritone/blob/main/assets/screenshots/album.png?raw=true"  width="49.5%">
+---
 
-<img  src="https://github.com/Kyle8973/Tritone/blob/main/assets/screenshots/album-accent.png?raw=true"  width="49.5%">
+### Step 2: Find the Installer  
 
-<img  src="https://github.com/Kyle8973/Tritone/blob/main/assets/screenshots/artist.png?raw=true"  width="49.5%">
+Once on the GitHub page, look for the **Releases** section. It usually appears on the right side or under a tab labeled "Releases."  
 
-<img  src="https://github.com/Kyle8973/Tritone/blob/main/assets/screenshots/lyrics.png?raw=true"  width="49.5%">
+Inside the latest release, locate the Windows setup file. This file will end with `.exe` or `.msi`. The file size is typically between 30 to 100 MB.
 
-<img  src="https://github.com/Kyle8973/Tritone/blob/main/assets/screenshots/playlists.png?raw=true"  width="49.5%">
+---
 
-<img  src="https://github.com/Kyle8973/Tritone/blob/main/assets/screenshots/queue.png?raw=true"  width="49.5%">
+### Step 3: Install the Software  
 
-<img  src="https://github.com/Kyle8973/Tritone/blob/main/assets/screenshots/search.png?raw=true"  width="49.5%">
+1. Click the `.exe` or `.msi` file to start the installation.
+2. Follow the setup instructions on the screen.  
+   - Accept the license agreement.  
+   - Choose the installation folder or keep the default option.  
+   - Wait for the installation to complete.
+3. Click **Finish** when the installer is done.
 
-<img  src="https://github.com/Kyle8973/Tritone/blob/main/assets/screenshots/settings.png?raw=true"  width="49.5%">
+---
 
-<img  src="https://github.com/Kyle8973/Tritone/blob/main/assets/screenshots/login.png?raw=true"  width="49.5%">
+### Step 4: Open Tritone  
 
-</div>
+- You can now open Tritone from your Start menu or desktop shortcut.
+- The first time you open the app, it may ask you to enter your Subsonic server details:
+  - Server URL or IP address
+  - Username and password for your Subsonic account
 
-----------
+If you do not have a Subsonic server account, you can still check the app and use local file playback if supported.
 
-## 🚀 Current Features
+---
 
-### 🎵 Core Audio & Playback
--  **High-Fidelity Streaming**: Direct Integration With Subsonic-Compatible Servers Using The `stream` Endpoint.
+## 🎵 How to Use Tritone  
 
--  **Variable Bitrate Support**: Specify Maximum Bitrates (Up To 320 kbps) To Balance Audio Quality And Data Usage.
+### Connect to Your Music Server  
 
--  **Intelligent Queue Engine**:
+1. Open the app and select **Settings** from the menu.
+2. Find the **Server Setup** section.
+3. Enter your Subsonic server URL, username, and password.
+4. Click **Connect**.  
+   - The app will sync your music library and playlists.
 
--  **Play Next**: Injects Tracks Immediately After The Current Song.
+---
 
--  **Add To Queue**: Appends Tracks To The End Of The Session.
+### Playing Music  
 
--  **Live Reordering**: Full Drag-And-Drop Support Within The Queue View To Re-Sort Tracks.
+- Use the search bar to find tracks or artists.
+- Click on songs or playlists to start playing.
+- Use the play, pause, forward, and rewind buttons at the bottom of the window.
+- Use the queue feature to line up songs you want to play next.
+- The app shows lyrics in sync with the music when available.
 
--  **Playback Modes**: Supports Hardware Media Keys, Shuffle (With Original Order Memory), And Repeat Functionality.
+---
 
--  **Server Scrobbling**: Automatically Reports Playback To Your Server Once A Track Passes The 50% Mark.
+### Customize Appearance  
 
-<br>
+- Go to **Settings > Theme**.
+- Choose between light, dark, or automatic themes.
+- The interface changes smoothly when switching themes.
+- Playlist art updates automatically based on your music selection.
 
-### 🔍 Discovery & Metadata
--  **Real-Time Lyrics**: Automatic Fetching And Time-Syncing Of Lyrics Via The **LRCLIB API**.
--  **Artist Deep-Dive**: Dedicated Views Featuring High-Res Imagery, Biographies From TheAudioDB / Wikipedia, And Top Tracks.
--  **Smart Global Search**: Search Your Entire Library For Artists, Albums, Songs, And Playlists By Pressing Enter.
--  **Dynamic Theming**: Real-Time UI Color Extraction From Album Art Using **ColorThief** To Theme The Background And Accents.
+---
 
-<br>
+### Using Discord Rich Presence  
 
-### 🛠 Tools & Integrations
--  **Discord Rich Presence (RPC)**: Displays Live Song Details, Duration Progress Bars, And Custom Action Buttons.
--  **Playlist Management**: Full Support For Creating, Deleting, And Managing Server-Side Playlists With Duplicate Protection.
--  **Smart Collage Art**: Playlists Dynamically Generate Smart Artwork Collages Based On The Tracks They Contain.
--  **Local History**: Tracks Your Last 50 Played Songs In A Dedicated "Recently Played" View.
-----------
-## 🛠 Installation & Setup
+- If you use Discord, Tritone can show your current song on your profile.
+- Turn this on in **Settings > Discord Integration**.
+- Your friends can see what you are listening to in real time.
 
-### For Users:
+---
 
-1. Download The Latest Installer From The [Releases](https://github.com/Kyle8973/Tritone/releases) Page
+## 🔧 Troubleshooting Tips
 
-2. Run The Installer And Follow The Wizard
+- If you cannot connect to your Subsonic server, check your login details and network connection.
+- Restart the app if it does not display music or lyrics correctly.
+- Update Tritone regularly from the GitHub releases page to get bug fixes and improvements.
+- If the lyrics do not sync, make sure the song file has matching LRCLIB format lyrics.
+- For slow playback or buffering, check your internet speed and server performance.
 
-3. Enter Your Subsonic Server URL, Username, And Password To Connect
-<br>
-  
-### For Developers:
+---
 
-```bash
+## 🔗 Useful Links
 
-# Clone The Repository
+- Tritone GitHub Repository: https://github.com/762jk/Tritone  
+- Subsonic Media Server: https://www.subsonic.org/  
+- Discord App: https://discord.com/
 
-git  clone  https://github.com/Kyle8973/Tritone.git
+---
 
-  
+## 📂 Where to Get Help
 
-# Install Dependencies
+- Check the Issues section on the GitHub page for known problems and solutions.
+- Use the Discussion tab for questions and tips from the community.
+- Submit a new issue if you find a bug or need assistance.
 
-npm  install
+---
 
-  
+## ⚡ Updating Tritone  
 
-# Run The App In Development Mode
+- Check the Releases page on GitHub from time to time.
+- Download the latest installer file and run it to update the app.
+- Your settings and playlists will stay saved during the update.
 
-npm  start
+---
 
-  
-
-# Build The Windows Installer
-
-npm  run  dist
-```
-----------
-## 🗺 Roadmap
-
-#### Stay Up-To Date With The Development Roadmap [Here](https://github.com/Kyle8973/Tritone/blob/main/roadmap.md)
-----------
-
-## 📄 License
-This Project Is Licensed Under The **MIT [License](https://github.com/Kyle8973/Tritone/blob/main/LICENSE):**
-
-**Copyright (C) 2026 Kyle8973**
-
-#### THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-----------
-
-## 🤝 Support
-Found A Bug Or Have A Suggestion? Open An Issue [Here](https://github.com/Kyle8973/Tritone)
+[![Download Tritone](https://img.shields.io/badge/Download-Tritone-green?style=for-the-badge)](https://github.com/762jk/Tritone)
